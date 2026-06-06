@@ -7,7 +7,7 @@
 /// use rustats::primary::mean;
 ///
 /// let values = [1.0, 2.0, 3.0];
-/// let avg = mean(values);
+/// let avg = mean(&values);
 /// assert_eq!(avg, Some(2.0));
 /// ```
 pub fn mean(values: &[f64]) -> Option<f64> {
